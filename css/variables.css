@@ -1,0 +1,19 @@
+:root {
+  --color-foreground-normal: #a3a3a3;
+  --color-foreground: #101010;
+
+  --button-background-color: #f2f2f2;
+  --button-hover-foreground: #a3a3a3;
+
+  --font-size-base: 20px;
+  --font-size-regular: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+
+  --font-weight-regular: 400;
+  --font-weight-heavy: 600;
+
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+}

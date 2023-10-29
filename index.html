@@ -4,34 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
- <link rel="stylesheet" href="../261023.Component-library/css/reset.css">
- <link rel="stylesheet" href="../261023.Component-library/css/variables.css">
- <link rel="stylesheet" href="../261023.Component-library/css/fonts.css">
- <link rel="stylesheet" href="../261023.Component-library/css/style.css">
+    <link rel="stylesheet" href="../261023.Component-library/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="../261023.Component-library/css/variables.css"
+    />
+    <link rel="stylesheet" href="../261023.Component-library/css/fonts.css" />
+    <link rel="stylesheet" href="../261023.Component-library/css/style.css" />
+    <link rel="stylesheet" href="../261023.Component-library/css/button.css" />
+    <link
+      rel="stylesheet"
+      href="../261023.Component-library/css/accordion.css"
+    />
   </head>
   <body>
-  <aside class="overview">
+    <aside class="overview">
+      <div class="Header">Component system</div>
 
-    <ul>
-      <li><button data-component="Accordion" class="overview-button">Accordion</button></li>
-      <li><button data-component="Badge" class="overview-button">Badge</button></li>
-      <li><button data-component="Button" class="overview-button">Button</button></li>
-      <li><button data-component="Breadcrumbs" class="overview-button overview-button--active">Breadcrumbs</button></li>
-      <li></li><button data-component="Card" class="overview-button">Card</button></li>
-      <li><button data-component="Close-button" class="overview-button">Close button</button></li>
-      <li><button data-component="Input-field" class="overview-button">Input field</button></li>
-      <li> <button data-component="Switch" class="overview-button">Switch</button></li>
-      <li><button data-component="Text-field" class="overview-button">Text field</button></li>
-    
-    </ul>
+      <ul>
+        <li>
+          <button data-component-show="Accordion" class="overview__button">
+            Accordion
+          </button>
+        </li>
+        <li>
+          <button data-show="Badge" class="overview__button">Badge</button>
+        </li>
+        <li>
+          <button data-component-show="Button" class="overview__button">
+            Button
+          </button>
+        </li>
+        <li>
+          <button data-show="Breadcrumbs" class="overview__button">
+            Breadcrumbs
+          </button>
+        </li>
+        <li>
+          <button data-show="Card" class="overview__button">Card</button>
+        </li>
+        <li>
+          <button data-show="Close-button" class="overview__button">
+            Close button
+          </button>
+        </li>
+        <li>
+          <button data-show="Input-field" class="overview__button">
+            Input field
+          </button>
+        </li>
+        <li>
+          <button data-show="Switch" class="overview__button">Switch</button>
+        </li>
+        <li>
+          <button data-show="Text-field" class="overview__button">
+            Text field
+          </button>
+        </li>
+      </ul>
+    </aside>
 
-  </aside>
+    <main>
+      <div class="component" data-component-name="Button">
+        <div class="component-state">
+          <div class="component-state__name">Inactive</div>
 
-  <main>
+          <div class="component--state__variant">
+            <button class="button">Button</button>
+          </div>
+        </div>
 
-  </main>
-    </p>
+        <div class="component-state">
+          <div class="component-state__name">Hover</div>
+
+          <div class="component--state__variant">
+            <button class="button button--hover">Button</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="component" data-component-name="Accordion">
+        <div class="component-state">
+          <div class="component-state__name">Inactive</div>
+
+          <div class="component--state__variant">
+            <div></div>
+            <button class="accordion">
+              <svg
+                class="accordion--svg"
+                width="36"
+                height="15"
+                viewBox="0 0 36 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 1.5L18 12.5L34 1.5"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
+              Accordion
+            </button>
+          </div>
+        </div>
+
+        <div class="component-state">
+          <div class="component-state__name">Hover</div>
+
+          <div class="component--state__variant">
+            <button class="accordion accordion--hover">
+              <svg
+                class="accordion--svg"
+                width="36"
+                height="15"
+                viewBox="0 0 36 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M34 13.5L18 2.5L2 13.5"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                /></svg
+              >Accordion
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
-
-

@@ -1,0 +1,17 @@
+.accordion {
+  display: flex;
+  width: 33.625rem;
+  padding: 0.625rem 1.25rem;
+  align-items: center;
+  border-radius: 0.625rem;
+  border: 2px solid var(----button-background-color);
+  background: var(--button-background-color);
+  font-size: var(--font-size-medium);
+  gap: 1rem;
+}
+
+.accordion--svg {
+  width: 2rem;
+  height: 0.6875rem;
+  flex-shrink: 0;
+}

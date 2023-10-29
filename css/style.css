@@ -1,3 +1,54 @@
 body {
   font-family: "Inter";
+  display: flex;
+  flex-flow: row nowrap;
+  padding: var(--spacing-medium);
+  gap: var(--spacing-large);
+}
+
+.Header {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-heavy);
+  display: inline-flex;
+  left: 0.4rem;
+  position: relative;
+  padding: 1rem 2rem;
+}
+
+main {
+  margin-top: var(--spacing-large);
+}
+
+ul,
+.overview {
+  display: flex;
+  flex-direction: column;
+}
+
+.component-state__name {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.component-state__name,
+.overview__button {
+  font-size: var(--font-size-large);
+  color: var(--color-foreground-normal);
+  font-weight: var(--font-weight-regular);
+  transition: color 200ms ease-in-out;
+}
+
+.overview__button:hover,
+.overview__button--active {
+  color: var(--color-foreground);
+}
+
+.component {
+  padding-left: 4rem;
+  display: none;
+  flex-flow: column nowrap;
+  gap: var(--spacing-large);
+}
+
+.component--visible {
+  display: flex;
 }
