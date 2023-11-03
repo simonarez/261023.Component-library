@@ -10,8 +10,13 @@
     flex-direction: row;
     font-size: var(--font-size-base);
     
+    
 }
 .breadcrumbs--hovered,
 .breadcrumbs--text:hover{
     color: var(--foreground-hovered);
+}
+.breadcrumbs--text{
+  transition: color 200ms ease-in-out;
+
 }
