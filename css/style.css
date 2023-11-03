@@ -32,7 +32,7 @@ ul,
 .component-state__name,
 .overview__button {
   font-size: var(--font-size-large);
-  color: var(--color-foreground-normal);
+  color: var(--color-foreground-hovered);
   font-weight: var(--font-weight-regular);
   transition: color 200ms ease-in-out;
 }
