@@ -1,0 +1,28 @@
+.input-field{
+    display: flex;
+    width: 28.625rem;
+    padding: 0.625rem 0.625rem 0.625rem 1.5rem;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 0.3125rem;
+    border: 1px solid var(--border-color);
+    background: var(--main-background-color);
+    
+}s
+
+.input-field--border{
+    display: flex;
+    width: 31.25rem;
+    padding: 0.9375rem 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.3125rem;
+    background-color: var(--secondary-background-color);
+
+
+
+
+}

@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/breadcrumbs.css" />
     <link rel="stylesheet" href="./css/card.css" />
     <link rel="stylesheet" href="./css/close-button.css" />
+    <link rel="stylesheet" href="./css/input-field.css" />
+    <link rel="stylesheet" href="./css/switch.css" />
     <link
       rel="stylesheet"
       href="../261023.Component-library/css/accordion.css"
@@ -71,6 +73,10 @@
             Text field
           </button>
         </li>
+		  <li>
+          <button data-component-show="Search-bar" class="overview__button">
+            Search bar
+          </button>
       </ul>
     </aside>
 
@@ -214,7 +220,7 @@
 			  <div class="component-state__name">Inactive</div>
  
 			  <div class="component--state__variant">
-				<a class="close-button close-button--hover" src="./assets/svg/x.svg"><img src="./assets/svg/x.svg" alt=""></a>
+				<a class="close-button" src="./assets/svg/x.svg"><img src="./assets/svg/x.svg" alt=""></a>
 			</div>
 			</div>
  
@@ -227,6 +233,50 @@
 			</div>
 		 </div>
 		
+		 <div class="component" data-component-name="Input-field">
+			<div class="component-state">
+			  <div class="component-state__name">Normal</div>
+ 
+			  <div class="component--state__variant">
+				<div class="input-field--border">
+					<input type="text" class="input-field" >
+				</div>
+			  </div>
+			</div>
+		 </div>
+
+
+		<div class="component" data-component-name="Switch">
+			<div class="component-state">
+			  <div class="component-state__name">Inactive</div>
+ 
+			  <div class="component--state__variant">
+				<div class="switch">
+
+					<div class="switch-board">
+						<span class="switch-circle"></span>
+					</div>
+
+				</div>
+			  </div>
+			</div>
+ 
+			<div class="component-state">
+			  <div class="component-state__name">Clicked</div>
+ 
+			  <div class="component--state__variant">
+				<div class="switch">
+
+					<div class="switch-board">
+						<span class="switch-circle"></span>
+					</div>
+
+				</div>
+				
+
+			  </div>
+			</div>
+		 </div>
 
 
     </main>
