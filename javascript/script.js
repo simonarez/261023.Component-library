@@ -1,10 +1,9 @@
-
 const overviewButtons = document.querySelectorAll(".overview__button");
 const components = document.querySelectorAll(".component");
 
 overviewButtons.forEach((button) => {
-	button.addEventListener("click", displayComponent);
-	button.addEventListener("click", overviewButtonsActive)
+	button.addEventListener("mouseenter", displayComponent);
+	button.addEventListener("mouseenter", overviewButtonsActive)
   });
 
   

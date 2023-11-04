@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    width: 44rem;
+    height: 17rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    font-size: var(--font-size-medium);
+    border-radius: 0.3125rem;
+    border: 1px solid var(--border-color );
+    background: var(--main-background-color);
+    box-shadow: var(--box-shadow);
+}   
+
+.card--text{
+    width: 25.4375rem;
+    justify-content: center;
+    align-items: center;
+}

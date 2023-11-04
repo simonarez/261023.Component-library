@@ -1,0 +1,22 @@
+.switch-board{
+    display: flex;
+    width: 5rem;
+    padding: 0.3125rem 0.625rem 0.3125rem 0.3125rem;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 1.25rem;
+    background: var(--main-background-color);
+    border: 1px solid var(--border-color);
+}
+
+.switch-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--secondary-background-color);
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--border-color);
+
+  }

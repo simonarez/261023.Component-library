@@ -1,0 +1,18 @@
+.badge{
+display: flex;
+width: 1.875rem;
+height: 1.875rem;
+padding: 0.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+
+border-radius: 1.8125rem;
+border: 1px solid var(--border-color);
+background: var(--main-background-color);
+
+box-shadow:var(--main-shadow);
+color: var(--color-foreground-hovered);
+
+}

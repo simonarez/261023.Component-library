@@ -1,13 +1,21 @@
 :root {
-  --color-foreground-normal: #a3a3a3;
+  --color-foreground-hovered: #a3a3a3;
   --color-foreground: #101010;
 
-  --button-background-color: #f2f2f2;
-  --button-hover-foreground: #a3a3a3;
+  --main-background-color:#FAFAFA;
+  --secondary-background-color:#f2f2f2;
+  --border-color: #E1E1E1;
+
+
+  --button-background-color: #F7F7F7;
+  --button-hover-foreground: var (--color-foreground-hovered);
+
+  --main-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.05) inset, 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+  --box-shadow:  0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 
   --font-size-base: 20px;
-  --font-size-regular: 1rem;
-  --font-size-medium: 1.5rem;
+  --font-size-regular: 1.25rem;
+  --font-size-medium: 1.875rem;
   --font-size-large: 2rem;
 
   --font-weight-regular: 400;
