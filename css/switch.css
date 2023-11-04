@@ -17,4 +17,6 @@
     border-radius: 50%;
     display: inline-block;
     box-shadow: var(--box-shadow);
+    border: 1px solid var(--border-color);
+
   }
