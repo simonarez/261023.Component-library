@@ -1,0 +1,17 @@
+.search-bar{
+    display: flex;
+    width: 15rem;
+    padding: 0.625rem 0.625rem 0.625rem 1.5rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.3125rem;
+    border: 1px solid var(--border-color);
+    background: var(--main-background-color);
+    transition: 200ms ease;
+}
+
+.search-bar:hover{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
