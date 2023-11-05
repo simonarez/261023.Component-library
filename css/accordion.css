@@ -1,6 +1,7 @@
 .accordion {
   display: flex;
   width: 33.625rem;
+  height: 3.8125rem;
   padding: 0.625rem 1.25rem;
   align-items: center;
   border-radius: 0.625rem;

@@ -25,7 +25,7 @@
   </head>
   <body>
     <aside class="overview">
-      <div class="Header">Component system</div>
+      <div class="Header">Component <br>System</div>
 
       <ul>
         <li>
@@ -68,15 +68,16 @@
             Switch
           </button>
         </li>
-        <li>
-          <button data-component-show="Text-field" class="overview__button">
-            Text field
-          </button>
-        </li>
 		  <li>
           <button data-component-show="Search-bar" class="overview__button">
             Search bar
           </button>
+		  </li>
+		  <li>
+			<button data-component-show="Navigation" class="overview__button">
+				Navigation
+			</button>
+		 </li>
       </ul>
     </aside>
 
@@ -251,10 +252,37 @@
 			  <div class="component-state__name">Inactive</div>
  
 			  <div class="component--state__variant">
+
+					<div class="switch--board" data-state = "off">
+						<span class="switch--slider"></span>
+					</div>
+
+			  </div>
+			</div>
+ 
+			<div class="component-state">
+			  <div class="component-state__name">Clicked</div>
+ 
+			  <div class="component--state__variant">
+
+					<div class="switch--board switch--board__clicked" data-state = "off">
+						<span class="switch--slider"></span>
+					</div>
+				
+
+			  </div>
+			</div>
+		 </div>
+
+		 <div class="component" data-component-name="Navigation">
+			<div class="component-state">
+			  <div class="component-state__name">Inactive</div>
+ 
+			  <div class="component--state__variant">
 				<div class="switch">
 
-					<div class="switch-board">
-						<span class="switch-circle"></span>
+					<div class="switch--board">
+						<span class="switch--slider"></span>
 					</div>
 
 				</div>
@@ -266,14 +294,13 @@
  
 			  <div class="component--state__variant">
 				<div class="switch">
-					
-					<div class="switch-board">
-						<span class="switch-circle"></span>
-					</div>
 
-				</div>
+					<div class="switch--board__hovered">
+						<span class="switch--slider__hovered"></span>
+					</div>
 				
 
+				</div>
 			  </div>
 			</div>
 		 </div>
@@ -281,5 +308,6 @@
 
     </main>
     <script src="./javascript/script.js"></script>
+	<script src="./javascript/switch.js"></script>
   </body>
 </html>

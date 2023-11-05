@@ -4,15 +4,23 @@ body {
   flex-flow: row nowrap;
   padding: var(--spacing-medium);
   gap: var(--spacing-large);
+  margin: 2rem 10rem ;
 }
 
 .Header {
-  font-size: var(--font-size-large);
-  font-weight: var(--font-weight-heavy);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
   display: inline-flex;
   left: 0.4rem;
   position: relative;
   padding: 1rem 2rem;
+  transition: 200ms ease;
+  color: var(--border-color);
+}
+
+.Header:hover{
+  transform: translateX(0.1rem);
+  
 }
 
 main {
@@ -26,13 +34,17 @@ ul,
 }
 
 .component-state__name {
+  margin-top: 4.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.overview__button{
+  color: var(--color-foreground-hovered);
+
 }
 .component-state__name,
 .overview__button {
   font-size: var(--font-size-large);
-  color: var(--color-foreground-hovered);
   font-weight: var(--font-weight-regular);
   transition: color 200ms ease-in-out;
 }
