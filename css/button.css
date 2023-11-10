@@ -6,6 +6,8 @@
   gap: 0.625rem;
   transition: 150ms ease;
   width: 6.4375rem;
+  border: none;
+  background-color: none;
 
 }
 

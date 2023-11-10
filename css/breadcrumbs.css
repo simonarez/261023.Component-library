@@ -17,6 +17,6 @@
     color: var(--foreground-hovered);
 }
 .breadcrumbs--text{
-  transition: color 200ms ease-in-out;
+  transition: color 150ms ease-in-out;
 
 }

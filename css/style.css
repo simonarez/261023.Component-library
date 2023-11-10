@@ -4,7 +4,7 @@ body {
   flex-flow: row nowrap;
   padding: var(--spacing-medium);
   gap: var(--spacing-large);
-  margin: 2rem 10rem ;
+  margin: 1rem 10rem ;
 }
 
 .Header {
