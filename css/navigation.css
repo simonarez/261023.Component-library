@@ -1,0 +1,9 @@
+.navigation{
+    display: inline-flex;
+    padding: 0.3125rem;
+    align-items: flex-start;
+    gap: 0.3125rem;
+    border-radius: 0.3125rem;
+    border: 1px solid var(--border-color);
+    background: #FCFCFC;
+}

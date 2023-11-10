@@ -4,7 +4,10 @@
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  transition: 100ms ease;
+  transition: 150ms ease;
+  width: 6.4375rem;
+  border: none;
+  background-color: none;
 
 }
 

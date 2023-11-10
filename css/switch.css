@@ -1,4 +1,4 @@
-.switch-board{
+.switch--board{
     display: flex;
     width: 5rem;
     padding: 0.3125rem 0.625rem 0.3125rem 0.3125rem;
@@ -10,7 +10,7 @@
     border: 1px solid var(--border-color);
 }
 
-.switch-circle {
+.switch--slider {
     height: 2rem;
     width: 2rem;
     background-color: var(--secondary-background-color);
@@ -18,5 +18,21 @@
     display: inline-block;
     box-shadow: var(--box-shadow);
     border: 1px solid var(--border-color);
+    transition: 500ms ease;
 
   }
+
+  
+
+.switch--board__clicked{
+  background: var(--border-color);
+  .switch--slider{
+    transform: translateX(2.2rem);
+  }
+}
+
+
+
+
+
+  
